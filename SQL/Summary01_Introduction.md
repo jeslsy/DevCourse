@@ -42,6 +42,10 @@
 
 ### Cloud와 AWS
 1️⃣ 클라우드
+
+<br>
+
+
 2️⃣ AWS
   - ec2
   - s3 : 대용량 클라우드 스토리지 서비스, 계층적 구조
@@ -61,4 +65,14 @@
     - Polly : Text to Speech Engine
     - Rekognition : Image Recognition Service
  
+ 3️⃣ Redshift - Scalable SQL 엔진
+   - 2PB까지 지원
+   - OLAP
+   - Columnar storage
+     - 컬럼별 압축 가능
+     - 컬럼 추가 삭제 아주 빠름
+   - 벌크 업데이트 지원
+   - 고정 용량/비용
+   - primary key uniqeuness 보장하지 않음
+   - Redshift 액세스 방법
  
