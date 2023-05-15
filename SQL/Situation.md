@@ -41,8 +41,16 @@
 <br>
 
 ### < 추가 숙제 >
-#### 1️⃣ 사용자별로 처음 채널과 마지막 채널 알아내기
-#### 2️⃣ Gross Revenue가 가장 큰 UserID 10개 찾기
-#### 3️⃣ raw_data.nps 테이블을 바탕으로 월별 NPS 계산
-- 솔루션 ppt 5장에 있음
+#### 1️. 사용자별로 처음 채널과 마지막 채널 알아내기
+- 1️⃣ CTE를 빌딩블록으로 사용
+- 2️⃣ JOIN 방식
+- 3️⃣ GROUP BY 방식
+- 4️⃣ FIRST_VALUE/LAST_VALUE 
+
+#### 2️. Gross Revenue가 가장 큰 UserID 10개 찾기
+- 1️⃣ GROUP BY
+- 2️⃣ SUM OVER
+
+#### 3️. raw_data.nps 테이블을 바탕으로 월별 NPS 계산
+
 
