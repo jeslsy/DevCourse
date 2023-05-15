@@ -23,16 +23,21 @@ SELECT DISTINCT channel
 FROM raw_data.user_session_channel;
 ```
 
+<br>
+
 **2. CASE WHEN**
 CASE
 WHEN 조건1 THEN 값1 WHEN 조건2 THEN 값2 ELSE 값3
 END 필드이름
+
+<br>
 
 **3. NULl**
 - NULL이 사칙연산에 사용되면 그 결과는?
 - SELECT 0 + NULL, 0 - NULL, 0 * NULL, 0/NUL
 - 결과 : NULL
 
+<br>
 
 **4. count 함수 제대로 이해하기**
 - null 무시하고 반환
@@ -40,12 +45,15 @@ END 필드이름
 - COUNT(상수): 상수(constant) 1을 인수로 사용하여 주어진 테이블의 총 레코드 수를 반환합니다. 이 때, NULL 값을 제외한 레코드 수가 반환
 - COUNT(DISTINCT 열): 주어진 열(column)의 고유한 값의 수를 반환
 
+<br>
 
 **5. where**
 - in
 - like & ilike, not like & not ilike
 - between
 - * case when에서 사용 가능
+
+<br>
 
 **6. string function**
 - LEFT(str, N)
@@ -56,11 +64,14 @@ END 필드이름
 - LPAD, RPAD
 - SUBSTRING
 
+<br>
+
 **7. order by에서 null 순서**
 - 오름차순이면 마지막
 - 내림차순이면 제일 처음
 - 바꾸고 싶으면, NULLS FIRST 혹은 ULLS LAST를 사용
 
+<br>
 
 **8. 타입 변환**
 1. DATE Conversion:
@@ -77,6 +88,7 @@ END 필드이름
   - ...
 2. TO_CHAR, TO_TIMESTAMP
 
+<br>
 
 **9. 타입 캐스팅**
 1. 1/2의 결과는?
