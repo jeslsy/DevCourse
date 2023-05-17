@@ -27,9 +27,8 @@
 1. union, except, intersect
 2. coalesce, nullif
 3. listagg
-4. lag
+4. lag, lead
 5. window함수
-  - lag, lead 함수
   - row_number over
   - sum over
   - first_value, last_value
