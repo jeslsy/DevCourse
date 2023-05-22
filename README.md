@@ -9,3 +9,6 @@ Recording what I learned.
 
 
 #### 2️⃣ 작성 규칙
+
+
+#### 3️⃣ 커밋 메시지 규칙
